@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Rogue Predictions By Rahul Golam.</h1>
+
+<p>Loto number generator:</p>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+for ( i = 0; i < 6; i++ ) {// initialise (i-0) , conditions for loop//
+
+
+ var randNum = Math.floor(Math.random() * 40)+1;// generating random number from 1-40//
+ document.write(randNum + "\n");// output numbers generated//
+}
+</script>
+
+</body>
+</html>
