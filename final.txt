@@ -25,7 +25,7 @@ function generateRan() {
          i--;
     }
 
- document.write(randNum + "\n" );// output numbers generated//
+ document.write(randNum.sort((a,b)=>a-b) + "\n" );// output numbers generated//
  
 }
 
